@@ -13,7 +13,7 @@ export default class Caledar extends React.Component{
         const month = monthName[date.getMonth()]
         const year = date.getFullYear() + 543
         const dayThai = `วัน${weekDay} ที่ ${day} ${month} ${year}`
-        return `วัน${weekDay} ที่ ${day} ${month} ${year}`
+        return `วัน${weekDay} ที่ ${day} ${month} ${year} `
     }
     render(){
         return(
